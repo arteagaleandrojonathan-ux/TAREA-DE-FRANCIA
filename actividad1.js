@@ -5,7 +5,7 @@ const pelicula = {
   idiomas:['Ingles', 'Español', 'Portugues', 'latin', 'frances', 'chino', 'japones'],
   duracionMin: 145,
   generos: ['Aventuras', 'fantasía', 'acción', 'ciencia ficción', 'cine de superhéroes', 'comedia'],
-  presupuesto: 225.000.000 ,
+  presupuesto: 225.000.000,
   recaudacion: 2.000.000.000,
   elenco: [
     { nombre: "Tom Holland",   personaje: "Spider-Man",   rol:"Protagonista", },
@@ -17,5 +17,5 @@ const pelicula = {
   ],
   sinopsis: '',
   direccion: [''],
-  escritores: ['']
+  escritores: ['Chris McKenna', 'Erik Sommers']
 }
