@@ -12,12 +12,13 @@ function sumaArrglos(lista1=[], lista2=[]){
             suma.push(acumular)
         });
     }else{
-        return ('No coinciden el numero de elementos')
+        return []
     }
     return suma
 }
 
 console.log(sumaArrglos([1,2,3,4,5],[1,2,3,4,5]))
+
 
 
 console.log("------------------------------------------------------------------------")

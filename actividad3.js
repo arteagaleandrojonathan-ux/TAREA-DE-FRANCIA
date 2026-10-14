@@ -14,7 +14,6 @@ function recibeNumeros(numero = [], haynumeros = true){
       else {
         impar = impar + 1
       }
-      
     });
   };
   return {
@@ -22,7 +21,6 @@ function recibeNumeros(numero = [], haynumeros = true){
     impar: impar
   }
 }
-
 console.log(recibeNumeros([23,12,54,76,12,47,34,87,23,52]))
 
 //funcion 2:
@@ -31,8 +29,6 @@ console.log(recibeNumeros([23,12,54,76,12,47,34,87,23,52]))
 //de hasta 5 digitos (99999)
 
 function numeroCapicua(numero){
-
-  
   let invertido = '';
   let texto = numero.toString();
 
@@ -44,11 +40,8 @@ function numeroCapicua(numero){
   }else{
     return false;
   }
-
   return Number(invertido) === numero;
- 
 }
-
 console.log(numeroCapicua(121)) // true
 console.log(numeroCapicua(121234)) // false porque son mas de 5
 console.log(numeroCapicua(12123)) // false no es un numero capicúa

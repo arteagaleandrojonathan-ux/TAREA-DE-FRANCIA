@@ -12,7 +12,6 @@
 */
 
 let fecha = new Date();
-
 let horas = fecha.getHours();
 let minutos = fecha.getMinutes();
 let segundos = fecha.getSeconds();
@@ -20,7 +19,6 @@ let segundos = fecha.getSeconds();
 let horasRestante = 24 - horas;
 let minutosRestante = 60 - minutos;
 let segundosRestante = 60 - segundos;
-
 (
     function(){
         console.log('Faltan ', horasRestante , 'Horas' );
